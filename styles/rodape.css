@@ -1,0 +1,56 @@
+/* rodape */
+
+
+.rodape {
+    padding: 1em;
+    font-family: var(--fonte-roboto);
+    background-color: black;
+    color: wheat;
+    display: grid;
+    gap: 2em;
+ 
+}
+
+.rodape section {
+    display: grid;
+    gap: 2em;
+}
+
+.rodape p {
+    font-weight: 500;
+}
+
+.div-rodape {
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+/* contato */
+
+
+.local-mapa {
+    width: 100%;
+    padding: 0 30px 15px 30px;
+    height: 60%;
+}
+
+.loc-rodape div {
+    text-align: center;
+}
+
+.contato-rodape h4 {
+    margin: 5px 0;
+}
+
+.loc-nome-empresa {
+    margin: 5px 0;
+}
+
+/* .rodape section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+} */

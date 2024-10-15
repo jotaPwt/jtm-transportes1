@@ -1,0 +1,201 @@
+
+
+
+
+.conteiner-abertura {
+    background-image: url(/img/banner-abertura-jtm.png);
+    background-size: 100% auto;
+    background-position: top center; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 18 / 9;
+}
+
+.textos-abertura {
+    display: grid;
+    text-align:left;
+    gap: 15px;
+    color: white;
+    padding: 1em;
+}
+
+.titulo-abertura {
+    font-size: 4vw;
+    margin-top: 0.7em;
+
+}
+
+.botao-abertura {
+    cursor: pointer;
+    border: solid rgb(231, 232, 223) 1px;
+    font-family: "system-ui";
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    transition: 533ms;
+    width: 20%;
+    box-shadow: rgb(130, 130, 130) -50px -50px 0px -50px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, rgb(132, 1, 21) 14%, rgb(64, 2, 15) 91%);
+    font-weight: 600;
+    --hover-width: 142px;
+    --hover-color: #000d1a;
+    --hover-bgc: #ffffff;
+    --hover-borderSize: 2px;
+    --hover-borderc: #7a0202;
+}
+
+.botao-abertura:hover {
+    color: rgb(0, 13, 26);
+    width: 25%;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-color: rgb(122, 2, 2);
+    border-width: 1.6px;
+    border-style: solid;
+}
+/* solucoes */
+
+.solucoes {
+    background: rgb(128,128,128);
+    background: linear-gradient(90deg, rgba(128,128,128,0.8240546218487395) 17%, rgba(128,128,128,0.4823179271708683) 48%, rgba(128,128,128,0.6559873949579832) 85%);
+    text-align: left;
+}
+
+.conteiner-solucoes {
+    padding: 1em;
+    display: grid;
+    gap: 0.4em;
+    box-shadow: 10px;
+}
+
+
+/* servico */
+
+.div-servicos {
+    margin-bottom: 2em;
+    padding: 0 1em;
+}
+
+.titulo-nossos-servicos{
+    text-align: left;
+    margin: 1em 0 0 0.5em;
+}
+
+.conteiner-servico {
+    background: rgb(128,128,128);
+    background: linear-gradient(90deg, rgba(128,128,128,1) 17%, rgba(128,128,128,0.5803571428571428) 48%, rgba(128,128,128,0.19100140056022408) 85%);
+    border-radius: 2em 0 2em 0;
+    padding: 2em;
+    margin: 2em;
+    text-align: center;
+    gap: 1em;
+    height: 100%;
+    -webkit-box-shadow: 5px 3px 10px 0px rgba(133,121,133,0.87);
+-moz-box-shadow: 5px 3px 10px 0px rgba(133,121,133,0.87);
+box-shadow: 5px 3px 10px 0px rgba(133,121,133,0.87);
+
+}
+
+.conteiner-servico p {
+    font-weight: 600;
+}
+
+.conteiner-servico h3 {
+    margin: 0.2em 0;
+}
+
+
+.icone-servicos {
+    width: 40px;
+    background-color: rgb(253, 253, 253);
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+/* filiais */
+
+.filiais {
+    background-color: rgb(212, 212, 212);
+    padding: 1em;
+    gap: 1em;
+}
+
+.filiais h2 {
+    margin-bottom: 1em;
+}
+
+.filiais div h2 {
+    margin-bottom: 1em;
+}
+
+
+
+
+.lista-filiais {
+    text-align: left;
+}
+
+.lista-filiais li {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.mapa-do-brasil{
+    width: 60%;
+    
+}
+
+.botao-filiais {
+    cursor: pointer;
+    border: solid rgb(231, 232, 223);
+    font-family: "system-ui";
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    transition: 533ms;
+    width: 128px;
+    box-shadow: rgb(130, 130, 130) -50px -50px 0px -50px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(189, 0, 28) 14%, rgb(64, 2, 15) 91%);
+    font-weight: 600;
+    --hover-width: 142px;
+    --hover-color: #000d1a;
+    --hover-bgc: #ffffff;
+    --hover-borderSize: 2px;
+    --hover-borderc: #7a0202;
+    margin-top: 1em;
+}
+
+.botao-filiais:hover {
+    color: rgb(0, 13, 26);
+    width: 142px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    border-color: rgb(122, 2, 2);
+    border-width: 1.6px;
+    border-style: solid;
+}
+
+
+/* galeria */
+
+.galeria {
+    padding: 1em 0;
+}
+
+.conteiner-galeria div {
+    display: flex;
+}
+
+
+.conteiner-imagens-galeria{
+     margin: 2em 0;
+}
+
+.titulo-galeria {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
+}
+

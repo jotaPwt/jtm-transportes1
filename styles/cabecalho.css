@@ -1,0 +1,21 @@
+.cabecalho {
+    
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagem-logo {
+    width: 150px;
+}
+
+.link-botao-abertura {
+    color: var(--branco);
+    font-weight: 600;
+}
+
+.botao-abertura {
+    border: 1px white solid;
+
+}

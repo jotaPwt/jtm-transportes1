@@ -1,0 +1,142 @@
+@import url(./cabecalho.css);
+@import url(rodape.css);
+@import url(./menu-hamburguer.css);
+@import url(./principal.css);
+@import url(./rodape.css);
+@import url(./form.css); 
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: ;
+    --branco: white;
+    --cinza: #808080;
+    --fonte-titulo: "Open Sans", sans-serif;
+    --fonte-nunito: "Nunito Sans", sans-serif;
+    --fonte-roboto: "Poppins", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.principal {
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: var(--fonte-roboto);
+}
+
+p {
+    font-size: 12px;
+}
+
+
+li:hover {
+    text-decoration:underline;
+    font-weight: 600;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .botao-abertura {
+        margin-top: 1em;
+    }
+
+    .servicos {
+        display: grid;
+    }
+
+    .div-servicos {
+        padding: 0 2em;
+    }
+    
+
+    .div-servicos section {
+        width: 100%;
+        display: flex;
+        
+        align-items: stretch; /* Garante que todas as caixas tenham a mesma altura */
+    }
+
+    
+
+    .conteiner-servico {
+        width: 50%;
+        height: 100%;
+        
+    }
+
+/* 
+    .cargas-fechadas .transporte-rodoviario .custo-transporte {
+        margin-left: 5em;
+    }
+
+    .cargas-fracionadas .logistica-nacional .perfil-carga {
+        margin-right: 2em;
+    } */
+
+    /* filiais */
+
+    
+
+    .div-filiais {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .lista-filiais {
+        display: flex;
+        justify-content: space-between;
+        gap: 4em;
+    }
+    
+    .mapa-do-brasil {
+        width: 65%;
+    }
+
+    /* rodape */ 
+
+    .rodape section {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .div-servicos {
+        
+        padding: 0 7em;
+    }
+
+    .conteiner-servico h3 {
+        font-size: 1.3em;
+    }
+
+    .conteiner-servico p {
+        font-size: 14px;
+    }
+
+    /* header */
+
+    .hamburger-menu {
+        display: none;
+
+    }
+
+    .menu__box {
+        display: block;
+    }
+    
+}
