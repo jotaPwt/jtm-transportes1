@@ -46,6 +46,10 @@ li:hover {
     font-weight: 600;
 }
 
+.menu__box1024px {
+    display: none;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -76,6 +80,17 @@ li:hover {
         width: 50%;
         height: 100%;
         
+    }
+
+    /* solucoes */ 
+
+    .solucoes div h3 {
+        font-size: 1.5em;
+        
+    }
+
+    .solucoes div p {
+        font-size: 1em;
     }
 
 /* 
@@ -115,6 +130,13 @@ li:hover {
 }
 
 @media screen and (min-width: 1024px) {
+
+
+    /* abertura */
+
+    
+    /* servicos */
+
     .div-servicos {
         
         padding: 0 7em;
@@ -135,8 +157,39 @@ li:hover {
 
     }
 
-    .menu__box {
-        display: block;
+    .menu__box1024px {
+        
+        display: flex;
+
+        margin: 0;
+
+        list-style: none;
+        text-decoration: none;
     }
+
+    .imagem-logo {
+        width: 200px;
+    }
+
+    /* solucoes */
+
+    .solucoes {
+        text-align: center;
+        
+    }
+
+    .solucoes div h3 {
+        font-size: 2em;
+        
+    }
+
+    .solucoes div p {
+        font-size: 1em;
+    }
+
+    .titulo-nossos-servicos {
+        font-size: 32px;
+    }
+
     
 }
