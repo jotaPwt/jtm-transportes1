@@ -82,6 +82,7 @@ li:hover {
         
     }
 
+
     /* solucoes */ 
 
     .solucoes div h3 {
@@ -93,14 +94,7 @@ li:hover {
         font-size: 1em;
     }
 
-/* 
-    .cargas-fechadas .transporte-rodoviario .custo-transporte {
-        margin-left: 5em;
-    }
 
-    .cargas-fracionadas .logistica-nacional .perfil-carga {
-        margin-right: 2em;
-    } */
 
     /* filiais */
 
@@ -119,14 +113,21 @@ li:hover {
     
     .mapa-do-brasil {
         width: 65%;
+
     }
+    
 
     /* rodape */ 
 
-    .rodape section {
-        display: flex;
-        justify-content: space-around;
+
+    .contato-rodape {
+        text-align: center;
+        display: grid;
+        gap: 0.5em;
+        background-color: rgb(43, 43, 43);
     }
+
+ 
 }
 
 @media screen and (min-width: 1024px) {
@@ -179,12 +180,12 @@ li:hover {
     }
 
     .solucoes div h3 {
-        font-size: 2em;
+        font-size: 2.5em;
         
     }
 
     .solucoes div p {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .titulo-nossos-servicos {

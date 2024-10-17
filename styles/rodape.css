@@ -45,6 +45,10 @@ h5 {
     margin: 5px 0;
 }
 
+.contato-rodape p {
+    text-decoration: none;
+}
+
 .loc-nome-empresa {
     margin: 5px 0;
 }
