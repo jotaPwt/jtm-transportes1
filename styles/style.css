@@ -50,7 +50,14 @@ li:hover {
     display: none;
 }
 
+.icon {
+    width: auto;
+    height: 17px;
+}
 
+h4 {
+    color: red;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -119,12 +126,41 @@ li:hover {
 
     /* rodape */ 
 
+    .rodape {
+        padding: 1em 4em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+        
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin-left: 2em;
+        
+    }
 
     .contato-rodape {
-        text-align: center;
+        display: flex;
+        gap: 3em;
+        
+        padding: 1em;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .contato-rodape div p {
+        font-size: 1em;
+    }
+
+    .contato-rodape-email {
         display: grid;
-        gap: 0.5em;
-        background-color: rgb(43, 43, 43);
+    }
+
+    .local-mapa {
+        width: 70%;
+        height: 100%;
     }
 
  
