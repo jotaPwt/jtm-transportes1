@@ -13,7 +13,7 @@
 
 .rodape section {
     display: grid;
-    gap: 2em;
+    gap: 1em;
 }
 
 .rodape p {
@@ -22,6 +22,11 @@
 
 .div-rodape {
     text-align: center;
+}
+
+
+.div-rodape img {
+    margin-top: 1em;
 }
 
 h5 {
@@ -41,6 +46,16 @@ h5 {
     text-align: center;
 }
 
+.loc-rodape h5 {
+    margin-bottom: 1em;
+    margin-top: 5px;
+}
+
+
+section .contato-rodape {
+    margin: 10px 0;
+}
+
 .contato-rodape h4 {
     margin: 5px 0;
 }
@@ -50,8 +65,6 @@ h5 {
     text-decoration: none;
 
 }
-
-
 
 
 .contato-rodape p:visited {

@@ -3,14 +3,33 @@
 
 
 .conteiner-abertura {
-    background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.png");
+    /* background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.webp"); */
+    background-image: url("/img/banner-abertura-jtm.webp");
+    background-color: whitesmoke;
     background-size: 100% auto;
     background-position: top center; 
     background-repeat: no-repeat;
+    
     width: 100%; 
     height: auto; 
     aspect-ratio: 18 / 9;
+
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 2s ease-in-out;
 }
+
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
 
 .textos-abertura {
     display: grid;
@@ -135,6 +154,8 @@ box-shadow: 5px 3px 10px 0px rgba(133,121,133,0.87);
 
 .lista-filiais {
     text-align: left;
+    margin-left: 6px;
+    margin-bottom: 10px;
 }
 
 .lista-filiais li {
