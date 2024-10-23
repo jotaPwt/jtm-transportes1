@@ -2,6 +2,7 @@
 
 
 
+
 .conteiner-abertura {
     /* background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.webp"); */
     background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.webp");
@@ -14,9 +15,10 @@
     width: 100%; 
     height: auto; 
     aspect-ratio: 18 / 9;
+    
 }
-  
-  
+
+
 
 .textos-abertura {
     display: grid;

@@ -175,6 +175,31 @@ h4 {
 
     /* abertura */
 
+    .conteiner-abertura {
+        /* background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.webp"); */
+        background-image: url("https://jotapwt.github.io/jtm-transportes1/img/banner-abertura-jtm.webp");
+    
+        background-color: whitesmoke;
+        background-size: 100% auto;
+        background-position: top center; 
+        background-repeat: no-repeat;
+        
+        width: 100%; 
+        height: auto; 
+        aspect-ratio: 18 / 9;
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
     
     /* servicos */
 
