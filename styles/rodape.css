@@ -48,9 +48,24 @@ h5 {
 .contato-rodape p {
     color: white;
     text-decoration: none;
-    
 
 }
+
+
+
+
+.contato-rodape p:visited {
+    color: white;
+}
+
+.contato-rodape p:hover {
+    color: white;
+}
+
+.contato-rodape p:active {
+    color: white;
+}
+
 
 .div-contato-rodape{
     display: flex;
