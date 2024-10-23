@@ -3,7 +3,7 @@
 @import url(./menu-hamburguer.css);
 @import url(./principal.css);
 @import url(./rodape.css);
-@import url(./form.css); 
+ 
 
 html {
     scroll-behavior: smooth;
