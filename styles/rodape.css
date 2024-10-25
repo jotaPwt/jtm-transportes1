@@ -88,6 +88,11 @@ section .contato-rodape {
     align-items: center;
 }
 
+.div-contato-rodape p {
+    color: white;
+    text-decoration: none;
+}
+
 .loc-nome-empresa {
     margin: 5px 0;
 }
