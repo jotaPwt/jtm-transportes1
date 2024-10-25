@@ -79,6 +79,10 @@ section .contato-rodape {
     color: white;
 }
 
+.div-contato-rodape p {
+    color: white;
+    text-decoration: none;
+}
 
 .div-contato-rodape{
     display: flex;
@@ -88,10 +92,6 @@ section .contato-rodape {
     align-items: center;
 }
 
-.div-contato-rodape p {
-    color: white;
-    text-decoration: none;
-}
 
 .loc-nome-empresa {
     margin: 5px 0;
